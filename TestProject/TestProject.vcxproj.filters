@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core Files">
+      <UniqueIdentifier>{0ccb634f-bcd2-49e1-8ae8-3f2cfb6d2bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Files\Header Files">
+      <UniqueIdentifier>{bcc3c831-5eb0-408a-9ea1-60da79621b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Files\Source Files">
+      <UniqueIdentifier>{ac1da257-b26b-42e1-b38a-a943ee514147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{8afbcb8b-451a-44a2-86d5-86ab280dd4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Header Files">
+      <UniqueIdentifier>{ccda0a54-36c2-4ac7-bdc4-341d73f56725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Source Files">
+      <UniqueIdentifier>{6223072c-f0d5-4d30-8f91-f70ed0e579d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Core Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Core Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviourScript.cpp">
+      <Filter>Core Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Core Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoroutineMaster.cpp">
+      <Filter>Core Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Core Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Core Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Game Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Game Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetTransparency.cpp">
+      <Filter>Game Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Core Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Core Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>Core Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileController.cpp">
+      <Filter>Game Files\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tools.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourScript.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coroutine.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoroutineMaster.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Game Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Game Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetTransparency.h">
+      <Filter>Game Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDestructible.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHeader.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadsafeDataQueue.h">
+      <Filter>Core Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileController.h">
+      <Filter>Game Files\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
